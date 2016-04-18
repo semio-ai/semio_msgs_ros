@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>semio_msgs_ros</name>
+  <version>0.1.0</version>
+  <description>ROS message implementation of common Semio data structures</description>
+
+  <maintainer email="support@semio.xyz">Semio Corp</maintainer>
+
+  <license>GPLv3</license>
+
+  <url type="website">https://semio.xyz</url>
+
+  <author email="support@semio.xyz">Semio Corp</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+  <run_depend>message_runtime</run_depend>
+
+  <build_depend>std_msgs</build_depend>
+  <run_depend>std_msgs</run_depend>
+</package>
