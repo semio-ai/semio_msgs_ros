@@ -1,2 +1,2 @@
-float64 value
+float64 likelihood
 semio_msgs_ros/AttentionTarget target
