@@ -1,0 +1,1 @@
+semio_msgs_ros/AttentionRecognitionHumanoidItem[] humanoids
