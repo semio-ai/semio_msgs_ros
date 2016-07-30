@@ -1,0 +1,12 @@
+uint32 TRACKING_STATE_NONE                          = 0
+uint32 TRACKING_STATE_CALIBRATING                   = 1
+uint32 TRACKING_STATE_TRACKED                       = 2
+uint32 TRACKING_STATE_CALIBRATION_ERROR_NOT_IN_POSE = 3
+uint32 TRACKING_STATE_CALIBRATION_ERROR_HANDS       = 4
+uint32 TRACKING_STATE_CALIBRATION_ERROR_HEAD        = 5
+uint32 TRACKING_STATE_CALIBRATION_ERROR_LEGS        = 6
+uint32 TRACKING_STATE_CALIBRATION_ERROR_TORSO       = 7
+
+uint32 id
+uint32 tracking_state
+semio_msgs_ros/HumanoidJoint[] joints
