@@ -1,0 +1,1 @@
+semio_msgs_ros/DeicticRecognitionHumanoidItem[] humanoids
