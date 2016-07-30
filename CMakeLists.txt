@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(semio_msgs_ros)
 
-set(message_deps std_msgs)
+set(message_deps std_msgs geometry_msgs)
 
 ## Find catkin macros and libraries
 find_package(catkin REQUIRED COMPONENTS
