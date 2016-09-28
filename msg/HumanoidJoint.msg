@@ -21,5 +21,5 @@ uint32 type
 geometry_msgs/Point position
 geometry_msgs/Quaternion orientation
 
-float64 position_confidence
-float64 orientation_confidence
+float32 position_confidence
+float32 orientation_confidence
