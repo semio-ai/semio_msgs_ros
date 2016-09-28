@@ -15,6 +15,8 @@ uint32 TYPE_RIGHT_KNEE     = 13
 uint32 TYPE_LEFT_FOOT      = 14
 uint32 TYPE_RIGHT_FOOT     = 15
 uint32 TYPE_ROOT           = 16
+uint32 TYPE_BASE           = 17
+uint32 TYPE_WAIST          = 18
 
 uint32 type
 
