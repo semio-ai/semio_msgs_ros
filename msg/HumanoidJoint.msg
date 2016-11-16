@@ -18,10 +18,19 @@ uint32 TYPE_ROOT           = 16
 uint32 TYPE_BASE           = 17
 uint32 TYPE_WAIST          = 18
 
+# Joint type (TYPE_* above)
 uint32 type
 
+# Joint position
 geometry_msgs/Point position
+
+# Joint orientation
 geometry_msgs/Quaternion orientation
 
+# Confidence of joint's position: [0,1]
+# 0 indicates that the position should be treated as undefined
 float32 position_confidence
+
+# Confidence of joint's orientation: [0,1]
+# 0 indicates that the orientation should be treated as undefined
 float32 orientation_confidence
