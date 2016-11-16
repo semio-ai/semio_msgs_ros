@@ -1,0 +1,70 @@
+/**
+
+@if STANDALONE_DOC
+@mainpage semio_msgs_ros
+@endif
+
+@if (!STANDALONE_DOC)
+@page semio_msgs_ros semio_msgs_ros
+@endif
+
+@section msgs-overview Overview
+
+ROS messages for Semio software.
+
+@section msgs-attention Attention
+
+---
+@subsection attention-targets Targets
+
+- <a href=AttentionTargets_8msg_source.html>AttentionTargets.msg</a>
+@includelineno msg/AttentionTargets.msg
+  - <a href="AttentionTarget_8msg_source.html">AttentionTarget.msg</a>
+@includelineno msg/AttentionTarget.msg
+
+@subsection attention-recognition Recognition
+
+- <a href="AttentionRecognitionResult_8msg_source.html">AttentionRecognitionResult.msg</a>
+@includelineno msg/AttentionRecognitionResult.msg
+  - <a href="AttentionRecognitionHumanoidItem_8msg_source.html">AttentionRecognitionHumanoidItem.msg</a>
+@includelineno msg/AttentionRecognitionHumanoidItem.msg
+    - <a href="AttentionRecognitionJointItem_8msg_source.html">AttentionRecognitionJointItem.msg</a>
+@includelineno msg/AttentionRecognitionJointItem.msg
+      - <a href="AttentionRecognitionTopNItem_8msg_source.html">AttentionRecognitionTopNItem.msg</a>
+@includelineno msg/AttentionRecognitionTopNItem.msg
+
+@section msgs-deixis Deixis
+
+---
+@subsection deixis-targets Targets
+
+- <a href=DeicticTargets_8msg_source.html>DeicticTargets.msg</a>
+@includelineno msg/DeicticTargets.msg
+  - <a href="DeicticTarget_8msg_source.html">DeicticTarget.msg</a>
+@includelineno msg/DeicticTarget.msg
+
+@subsection deixis-recognition Recognition
+
+- <a href="DeicticRecognitionResult_8msg_source.html">DeicticRecognitionResult.msg</a>
+@includelineno msg/DeicticRecognitionResult.msg
+  - <a href="DeicticRecognitionHumanoidItem_8msg_source.html">DeicticRecognitionHumanoidItem.msg</a>
+@includelineno msg/DeicticRecognitionHumanoidItem.msg
+    - <a href="DeicticRecognitionSourceItem_8msg_source.html">DeicticRecognitionSourceItem.msg</a>
+@includelineno msg/DeicticRecognitionSourceItem.msg
+      - <a href="DeicticRecognitionTopNItem_8msg_source.html">DeicticRecognitionTopNItem.msg</a>
+@includelineno msg/DeicticRecognitionTopNItem.msg
+
+@section msgs-humanoid Humanoid
+
+---
+- <a href=Humanoids_8msg_source.html>Humanoids.msg</a>
+@includelineno msg/Humanoids.msg
+  - <a href=Humanoid_8msg_source.html>Humanoid.msg</a>
+@includelineno msg/Humanoid.msg
+    - <a href=HumanoidJoint_8msg_source.html>HumanoidJoint.msg</a>
+@includelineno msg/HumanoidJoint.msg
+
+
+@tableofcontents
+
+**/
